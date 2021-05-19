@@ -9,6 +9,8 @@
 
 # production
 /*/build
+settings.py
+config.json
 
 # misc
 .DS_Store
