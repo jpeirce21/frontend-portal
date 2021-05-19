@@ -9,6 +9,7 @@
     "chartjs-plugin-datalabels": "^0.7.0",
     "code": "^5.2.4",
     "connected-react-router": "^6.6.1",
+    "cypress": "^7.3.0",
     "eslint-plugin-import": "^2.22.0",
     "firebase": "^7.17.1",
     "glob": "^7.1.6",
