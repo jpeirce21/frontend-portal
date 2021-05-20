@@ -50,7 +50,7 @@ class CommunitySelectPage extends React.Component {
     const classes = ["me-open-in", "me-open-in-slower", "me-open-in-slowest"];
     const index = getRandomIntegerInRange(3);
     return classes[index];
-  
+
   }
   render() {
     const communities =
@@ -108,7 +108,7 @@ class CommunitySelectPage extends React.Component {
                         fontSize: 15,
                       }}
                     >
-                      
+
                       {" "}
                       <a className={`com-domain-link ${this.getAnimationClass()}` }href={`/${com.subdomain}`}>
                         {com.name}
@@ -128,7 +128,7 @@ class CommunitySelectPage extends React.Component {
                 {" "}
                 Or go to our main site
               </h3>
-              <p className="text-center">
+              <div className="text-center">
                 <MEButton
                 className="me-anime-open-in"
                   href="//massenergize.org"
@@ -137,7 +137,7 @@ class CommunitySelectPage extends React.Component {
                 >
                   MassEnergize
                 </MEButton>{" "}
-              </p>
+              </div>
             </div>
           </div>
         </div>
